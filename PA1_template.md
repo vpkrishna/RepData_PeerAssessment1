@@ -28,7 +28,7 @@ histactivity <- na.omit(activity)
 
 ## What is mean total number of steps taken per day?
 
-Applying tapply to find total steps per day 
+ Applying tapply to find total steps per day 
 
 
 ```r
@@ -157,6 +157,8 @@ Impact according to my computations is minimal
 
 ## Are there differences in activity patterns between weekdays and weekends?
 
+        Based on the plots below we can see there is not much of a difference between both the plots
+
 1) Create a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
     Created ..
 
@@ -169,4 +171,4 @@ Impact according to my computations is minimal
 
 ![plot of chunk time series plot  ](figure/time_series_plot__.png) 
 
-  
+     
